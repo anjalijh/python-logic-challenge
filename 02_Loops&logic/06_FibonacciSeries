@@ -1,0 +1,13 @@
+# Challenge 06 : Fibonacci Series
+# Ask the user how many numbers of the Fibonacci series
+n=int(input("enter the number of terms:"))
+# Initialize a with 0 and b with 1  
+a,b=0,1
+print("Fibonacci Series:")
+# Initialize for loop for range n
+for i in range(n):
+# Here, we use end=" " to ensure the results are printed in the same line 
+    print(a,end=" ")
+# Python first evaluates the right side and then only the left side
+    a,b=b,a+b
+   
