@@ -1,0 +1,18 @@
+# Challenge No.07 : Prime Number
+# Ask the user to enter a number and convert it to an integer
+num = int(input("Enter a number:"))
+
+# Prime numbers must be greater than 1
+if num > 1:
+    # Check for factors from 2 up to (num - 1)
+    for i in range(2, num):
+        # If num is perfectly divisible by i, it's not a prime number
+        if num % i == 0:
+            print(f"{num} is not a prime number")
+            break  # Exit the loop immediately since a factor was found
+    else:
+        # This else belongs to the for-loop; it executes only if the loop finishes without breaking
+        print(f"{num} is a prime number")
+else:
+    # If the number is 1 or less, it is automatically not prime
+    print(f"{num} is not a prime number")
