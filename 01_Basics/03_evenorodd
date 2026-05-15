@@ -1,0 +1,10 @@
+# Challenge 03 : Even or Odd
+# Ask the user to enter a number 
+num=int(input("Enter a number:"))
+# Use the coditional statement 
+if num%2==0:
+# If the above mentioned condition is true, display the below statement
+    print("The number",num,"is even")
+# If the above mentioned condition is not true
+else:
+    print("The number",num,"is odd")
