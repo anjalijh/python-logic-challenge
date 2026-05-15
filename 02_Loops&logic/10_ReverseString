@@ -1,0 +1,7 @@
+# Challenge No.10 : Reverse a String 
+# Ask the user to enter a string 
+stri=input("Enter a string:")
+# Print the default string by the user
+print("The default string is:",stri)
+# Display the reversed string by using Python's slicing trick 
+print("The reversed string is ", stri[::-1])
