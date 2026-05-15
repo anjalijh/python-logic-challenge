@@ -1,0 +1,8 @@
+# Challenge 04 : Temperature Converter
+# Ask for an input from the user in Celsius
+celsius=float(input("Enter the temperature in Celsius:"))
+print("Temperature in Celsius :",celsius)
+# By using the mathematical formula convert the Celsius temperature in Fahrenheit
+fahrenheit=(celsius*9/5)+32
+# Display the Converted temperature in Fahrenheit
+print("Temperature in Fahrenheit :",fahrenheit)
