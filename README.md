@@ -13,30 +13,30 @@ This repsitory contains my solutions to essential programming challenges. These 
 ## Challenge Progress Tracker
 
 ### 01. Basics
-- [ ] 01. Hello, World!
-- [ ] 02. Sum of Two Numbers
-- [ ] 03. Even or Odd
-- [ ] 11. Temperature Converter
+- [ x ] 01. Hello, World!
+- [ x ] 02. Sum of Two Numbers
+- [ x ] 03. Even or Odd
+- [ x ] 04. Temperature Converter
 
 ### 02. Loops and Logic
-- [ ] 04. Factorial
-- [ ] 05. Fibonacci Series
-- [ ] 06. Leap Year
-- [ ] 07. Prime Number
-- [ ] 08. Palindrome Check
-- [ ] 09. Reverse a String
-- [ ] 10. Multiplication Table
+- [ ] 05. Factorial
+- [ ] 06. Fibonacci Series
+- [ ] 07. Leap Year
+- [ ] 08. Prime Number
+- [ ] 09. Palindrome Check
+- [ ] 10. Reverse a String
+- [ ] 11. Multiplication Table
 - [ ] 12. Factorial using a Loop
-- [ ] 14. Sum of Digits
-- [ ] 15. Prime Numbers in a Range
-- [ ] 16. Fibonacci Series (Loop)
-- [ ] 17. Reverse a Number
-- [ ] 18. Count Characters
-- [ ] 19. Perfect Numbers
-- [ ] 20. Power of a Number
+- [ ] 13. Sum of Digits
+- [ ] 14. Prime Numbers in a Range
+- [ ] 15. Fibonacci Series (Loop)
+- [ ] 16. Reverse a Number
+- [ ] 17. Count Characters
+- [ ] 18. Perfect Numbers
+- [ ] 19. Power of a Number
 
 ### 🔹 03. Pattern Printing
-- [ ] 13. Pattern Printing (Basic)
+- [ ] 20. Pattern Printing (Basic)
 - [ ] 21. Square Pattern
 - [ ] 22. Diamond Pattern
 - [ ] 23. Number Pyramid
