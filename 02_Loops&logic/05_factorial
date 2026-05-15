@@ -1,0 +1,10 @@
+# Challenge 05 : Factorial of a number
+# Ask for an input from the user
+num=int(input("Enter a number:"))
+# Initialize by 1 because any number multiplied by 1, doesn't change it value.  
+a=1
+# Use for loop   
+for i in range(1,num+1):
+    a*=i
+# Print the factorial of the number on the console
+print("The factorial of",num,"=",a)
