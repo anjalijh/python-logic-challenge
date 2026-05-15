@@ -1,0 +1,11 @@
+# Challenge No.09 : Palindrome 
+# Ask the user to enter a string 
+text=input("Enter a string:")
+# Remove all the spaces from the string and convert all the characters in the string to lowercase
+space=text.replace(" ","").lower()
+# Check if the cleaned string is equal to its reversed self by using 
+Python's built-in string slicing trick to reverse a string
+if text==space[::-1]:
+    print("The entered text is palindrome")
+else:
+    print("The entered text is not palindrome")
