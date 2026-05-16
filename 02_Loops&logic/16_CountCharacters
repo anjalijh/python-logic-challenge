@@ -1,0 +1,16 @@
+# Challenge No.16 : Count Characters
+# Ask the user to input an string 
+text = input("Enter a string: ")
+
+# variable to store character count and initialize the variable with 0 
+count = 0   
+
+# loop through each character in the string
+for ch in text:
+    # check if character is not a whitespace
+    if ch != " ":
+        # increment count
+        count += 1
+        
+# Print the result to the console in proper format 
+print("Number of characters (excluding whitespaces):", count)
