@@ -29,39 +29,38 @@ This repsitory contains my solutions to essential programming challenges. These 
 - [ x ] 12. Factorial using a Loop
 - [ x ] 13. Sum of Digits
 - [ x ] 14. Prime Numbers in a Range
-- [ x ] 15. Fibonacci Series (Loop)
-- [ x ] 16. Reverse a Number
-- [ x ] 17. Count Characters
-- [ x ] 18. Perfect Numbers
-- [ x ] 19. Power of a Number
+- [ x ] 15. Reverse a Number
+- [ x ] 16. Count Characters
+- [ x ] 17. Perfect Numbers
+- [ x ] 18. Power of a Number
 
 ### 🔹 03. Pattern Printing
-- [ ] 20. Pattern Printing (Basic)
-- [ ] 21. Square Pattern
-- [ ] 22. Diamond Pattern
-- [ ] 23. Number Pyramid
-- [ ] 24. Pascal's Triangle
+- [ ] 19. Pattern Printing (Basic)
+- [ ] 20. Square Pattern
+- [ ] 21. Diamond Pattern
+- [ ] 22. Number Pyramid
+- [ ] 23. Pascal's Triangle
 
 ### 04. Array Operations
-- [ ] 25. Array Sum
-- [ ] 26. Array Average
-- [ ] 27. Largest Element
-- [ ] 28. Smallest Element
-- [ ] 29. Array Reversal
-- [ ] 30. Array Sorting (Bubble / Selection Sort)
-- [ ] 31. Array Rotation (Left / Right)
-- [ ] 32. Array Search (Linear / Binary)
-- [ ] 33. Array Merge
-- [ ] 34. Array Removal
+- [ ] 24. Array Sum
+- [ ] 25. Array Average
+- [ ] 26. Largest Element
+- [ ] 27. Smallest Element
+- [ ] 28. Array Reversal
+- [ ] 29. Array Sorting (Bubble / Selection Sort)
+- [ ] 30. Array Rotation (Left / Right)
+- [ ] 31. Array Search (Linear / Binary)
+- [ ] 32. Array Merge
+- [ ] 33. Array Removal
 
 ### 05. Matrix Operations
-- [ ] 35. Matrix Addition
-- [ ] 36. Matrix Subtraction
-- [ ] 37. Matrix Multiplication
-- [ ] 38. Transpose of a Matrix
-- [ ] 39. Matrix Determinant
-- [ ] 40. Matrix Inversion
-- [ ] 41. Matrix Rotation (90 Degrees)
-- [ ] 42. Scalar Matrix Multiplication
+- [ ] 34. Matrix Addition
+- [ ] 35. Matrix Subtraction
+- [ ] 36. Matrix Multiplication
+- [ ] 37. Transpose of a Matrix
+- [ ] 38. Matrix Determinant
+- [ ] 39. Matrix Inversion
+- [ ] 40. Matrix Rotation (90 Degrees)
+- [ ] 41. Scalar Matrix Multiplication
 - [ ] 43. Matrix Power
 - [ ] 44. Matrix Trace
