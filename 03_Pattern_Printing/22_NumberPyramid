@@ -1,6 +1,5 @@
 # Challenge No.22 : Number Pyramid 
-# Program to print mirrored number pyramid
-
+# Ask the user to enter the nummber of rows
 rows = int(input("Enter the number of rows: "))
 
 for i in range(1, rows + 1):
