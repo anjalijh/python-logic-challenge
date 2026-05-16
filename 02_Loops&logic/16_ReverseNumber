@@ -1,4 +1,4 @@
-# Challenge No.15 : Reverse a Number 
+# Challenge No.16 : Reverse a Number 
 
 # Ask the user to input a number
 num = int(input("Enter an integer: "))
