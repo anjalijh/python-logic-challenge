@@ -1,0 +1,10 @@
+# Challenge No.11 : Multiplication Table 
+# Ask the user to input an number of which they want multiplication table 
+num=int(input("Enter a number:"))
+# Ask the user how far up the multiplication table should go (the range)
+r=int(input("Enter the range:"))
+print("Multiplication table of",num,"upto",r)
+# Use 'for' loop starting from 1 including the specified range 'r'
+for i in range(1,r+1):
+# Display the results on the console in proper format
+    print(num,"x",i,"=",num*i)
