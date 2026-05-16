@@ -1,0 +1,8 @@
+# Challenge No.20 : Square Pattern
+# Ask the user to enter the size of the square
+rows=int(input("Enter the size of the square:"))
+
+# Use loop for the number of rows 
+for i in range(rows):
+    # Repeat the star symbol and a space 'rows' times for each line
+    print("*" * rows)
