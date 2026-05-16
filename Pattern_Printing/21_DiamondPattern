@@ -1,0 +1,19 @@
+# Challenge No.21 : Diamond Pattern
+# Ask the user for the number of rows for the top half
+rows = int(input("Enter the number of rows:"))
+
+# PART 1: Top Half of the Diamond 
+# Loop from 1 up to the total number of rows
+for i in range(1, rows + 1):
+    # Print decreasing spaces to shift stars right, keep cursor on same line
+    print(" " * (rows - i), end=" ")
+    # Print an odd number of stars (1, 3, 5, ...) for the triangle shape
+    print("*" * (2 * i - 1))
+
+#  PART 2: Bottom Half of the Diamond 
+# Loop backward from (rows - 1) down to 1
+for i in range(rows - 1, 0, -1):
+    # Print increasing spaces to shift stars right, keep cursor on same line
+    print(" " * (rows - i), end=" ")
+    # Print a decreasing odd number of stars back down to 1
+    print("*" * (2 * i - 1))
