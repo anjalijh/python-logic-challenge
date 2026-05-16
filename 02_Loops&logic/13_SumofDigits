@@ -1,0 +1,14 @@
+# Challenge No.13 : Sum of Digits 
+# Ask the user to input any number 
+num=int(input("Enter a number :"))
+# Initialize sum variable by 0
+sum=0
+# Keep looping as long as there are digits left in the number
+while num>0:
+# Use the modulo operator (%) to grab the very last digit of the number
+    sum+=num%10
+# Use floor division (//) to strip away the last digit by shifting the number down
+    num//=10
+# Display the final total sum of all the extracted digits
+print("The sum of digits =",sum)
+
