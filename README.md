@@ -35,11 +35,11 @@ This repsitory contains my solutions to essential programming challenges. These 
 - [ x ] 18. Power of a Number
 
 ### 🔹 03. Pattern Printing
-- [ ] 19. Pattern Printing (Basic)
-- [ ] 20. Square Pattern
-- [ ] 21. Diamond Pattern
-- [ ] 22. Number Pyramid
-- [ ] 23. Pascal's Triangle
+- [ x ] 19. Pattern Printing (Basic)
+- [ x ] 20. Square Pattern
+- [ x ] 21. Diamond Pattern
+- [ x ] 22. Number Pyramid
+- [ x ] 23. Pascal's Triangle
 
 ### 04. Array Operations
 - [ ] 24. Array Sum
