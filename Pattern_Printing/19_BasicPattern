@@ -1,0 +1,29 @@
+# Challenge No.19 : Basic Pattern (Right & Left Angled Triangle)
+# Define the number of rows for the pattern
+rows = int(input("Enter the number of rows for the pattern :"))
+
+print("\n Right-Angle Triangle ")
+
+# The outer loop handles the number of rows
+for i in range(1, rows + 1):
+    # The inner loop handles how many stars to print on the current row
+    for j in range(i):
+        print("*", end=" ")
+    # After printing the stars for a row, move to a new line
+    print()
+
+print("\n Left-Angle Triangle ")
+
+# The outer loop handles the number of rows
+for i in range(1,rows+1):
+    # Use inner loop 1 to print the spaces
+    for space in range(rows-i):
+        print(" ",end=" ")
+# Use inner loop 2 to print the stars
+    for j in range(i):
+        print("*", end=" ")
+
+# Move to a new line after completing the row
+    print()
+        
+    
