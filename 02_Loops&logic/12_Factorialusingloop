@@ -1,0 +1,19 @@
+# Challenge No.12 : Factorial using a Loop
+# Ask the user to enter a positive integer
+num = int(input("Enter a number: "))
+# Initialize the result variable to 1
+factorial = 1
+
+# Check if the number is negative, zero, or positive
+if num < 0:
+    print("Factorial does not exist for negative numbers.")
+elif num == 0:
+    print("The factorial of 0 is 1")
+else:
+    # Loop from 1 up to and including 'num'
+    for i in range(1, num + 1):
+        # Multiply the running product by the current loop number
+        factorial *= i  # Equivalent to: factorial = factorial * i
+
+    # Display the final calculated result
+    print(f"The factorial of {num} is {factorial}")
