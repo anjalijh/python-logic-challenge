@@ -19,21 +19,21 @@ This repsitory contains my solutions to essential programming challenges. These 
 - [ x ] 04. Temperature Converter
 
 ### 02. Loops and Logic
-- [ ] 05. Factorial
-- [ ] 06. Fibonacci Series
-- [ ] 07. Leap Year
-- [ ] 08. Prime Number
-- [ ] 09. Palindrome Check
-- [ ] 10. Reverse a String
-- [ ] 11. Multiplication Table
-- [ ] 12. Factorial using a Loop
-- [ ] 13. Sum of Digits
-- [ ] 14. Prime Numbers in a Range
-- [ ] 15. Fibonacci Series (Loop)
-- [ ] 16. Reverse a Number
-- [ ] 17. Count Characters
-- [ ] 18. Perfect Numbers
-- [ ] 19. Power of a Number
+- [ x ] 05. Factorial
+- [ x ] 06. Fibonacci Series
+- [ x ] 07. Leap Year
+- [ x ] 08. Prime Number
+- [ x ] 09. Palindrome Check
+- [ x ] 10. Reverse a String
+- [ x ] 11. Multiplication Table
+- [ x ] 12. Factorial using a Loop
+- [ x ] 13. Sum of Digits
+- [ x ] 14. Prime Numbers in a Range
+- [ x ] 15. Fibonacci Series (Loop)
+- [ x ] 16. Reverse a Number
+- [ x ] 17. Count Characters
+- [ x ] 18. Perfect Numbers
+- [ x ] 19. Power of a Number
 
 ### 🔹 03. Pattern Printing
 - [ ] 20. Pattern Printing (Basic)
