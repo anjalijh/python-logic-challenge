@@ -1,0 +1,18 @@
+# Challenge No.18 : Power of a Number
+# Program to calculate base*exponent using a loop
+
+# Ask the user to enter the base value
+base = int(input("Enter the base: "))
+# Ask the user to enter the exponent 
+exponent = int(input("Enter the exponent: "))
+
+# Initialize the variable result with 1 because any number multiplied by 1 is the number itself 
+result = 1   
+
+# Use for loop 
+for i in range(exponent):
+# multiply result by base in each iteration
+    result *= base   
+
+# Print the results to the console in a proper format
+print(f"{base}*{exponent} = {result}")
