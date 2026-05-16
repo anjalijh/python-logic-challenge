@@ -1,0 +1,18 @@
+# Challenge No.23 : Pascal Triangle 
+# Define user-based function with paratmeter 'n'
+def pascal(n):
+    for i in range(n):
+        # print leading spaces for alignment
+        print(" " * (n - i), end="")
+
+        val = 1
+        for j in range(i + 1):
+            print(val, end=" ")
+            # formula to compute next value in row
+            val = val * (i - j) // (j + 1)
+
+        # move to next line
+        print()
+
+# call the function
+pascal(5)
