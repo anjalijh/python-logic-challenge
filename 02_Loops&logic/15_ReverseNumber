@@ -1,0 +1,17 @@
+# Challenge No.15 : Reverse a Number 
+
+# Ask the user to input a number
+num = int(input("Enter an integer: "))
+# variable to store reversed number
+rev = 0   
+
+while num > 0:
+    # extract last digit
+    digit = num % 10
+    # append digit to reversed number
+    rev = rev * 10 + digit
+    #  remove last digit from num
+    num = num // 10
+
+# Print the reversed number on the console 
+print("Reversed number:", rev)
