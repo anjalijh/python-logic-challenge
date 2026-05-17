@@ -1,0 +1,19 @@
+# Challenge No.24 : Array Sum 
+# Import Python built-in library 'numpy' as 'np' 
+import numpy as np
+
+# Get input from the user 
+num = input("Enter numbers separated by spaces: ")
+
+# Convert the input string into a list of integers and then into a NumPy array
+# .split() breaks the string by spaces, and map(int, ...) converts each piece to an integer
+arr = np.array(list(map(int, num.split())))
+
+# Calculate sum using NumPy
+total = np.sum(arr)
+
+# Print the user-defined array 
+print("Array:", arr)
+
+# Print the sum of array elements
+print("Sum of array elements:", total)
