@@ -1,0 +1,17 @@
+# Challenge No.26 : Largest Element in the Array 
+# Import Python built-in library 'numpy' as 'np
+import numpy as np
+
+# Get input from the user 
+num = input("Enter numbers separated by spaces: ")
+
+# Convert the input string into a list of integers and then into a NumPy array
+# .split() breaks the string by spaces, and map(int, ...) converts each piece to an integer
+arr = np.array(list(map(int, num.split())))
+
+# Find the largest array value
+maximum=np.max(arr)
+
+print("Array:", arr)
+# Display the result in a proper format on the console
+print("Maximum Value of array elements:", maximum)
